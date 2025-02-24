@@ -8,6 +8,13 @@ public class MetierImpl implements IMetier {
     // Couplage faible
     private IDao dao;
 
+    public MetierImpl() {
+    }
+
+    public MetierImpl(IDao dao) {
+        this.dao = dao;
+    }
+
     /**
      * Pour injecter la variable dao un objet d'une classe qui implémente l'interface IDao
      */
