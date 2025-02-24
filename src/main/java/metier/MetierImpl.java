@@ -8,10 +8,11 @@ public class MetierImpl implements IMetier {
     // Couplage faible
     private IDao dao;
 
+    /**
+     * Pour injecter la variable dao un objet d'une classe qui implémente l'interface IDao
+     */
     public void setDao(IDao dao) {
-        /**
-         * Pour injecter la variable dao un objet d'une classe qui implémente l'interface IDao
-         */
+        this.dao = dao;
     }
 
     @Override
