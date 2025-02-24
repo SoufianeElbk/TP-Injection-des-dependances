@@ -19,6 +19,6 @@ public class MetierImpl implements IMetier {
     public double calcul() {
         double temp = dao.getData();
         double res = temp*23;
-        return 0;
+        return res;
     }
 }
