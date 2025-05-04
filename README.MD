@@ -1,5 +1,7 @@
 # Dependency Injection
 
+<img src="screenshots/img_9.png">
+
 ## 1- Static Instantiation:
 ![Example](screenshots/img.png)
 
